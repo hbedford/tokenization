@@ -1,0 +1,24 @@
+{
+    "source": [
+        "properties/**/*.json"
+    ],
+    "platforms": {
+        "flutter-separate": {
+            "transformGroup": "flutter-separate",
+            "buildPath": "../lib/src/cores/",
+            "files": [
+                {
+                    "destination": "app_colors.dart",
+                    "format": "flutter/class.dart",
+                    "className": "StyleDictionaryColor",
+                    "type": "color",
+                    "filter": {
+                        "attributes": {
+                            "category": "color"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
